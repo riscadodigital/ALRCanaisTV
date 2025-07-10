@@ -272,10 +272,16 @@ section{
 
 footer {
 	width: 100%;
-    height: 20vh;    
-    background-color: #003c3c;
-    padding-top: 10px;
-    text-align: center;
+    	height: 20vh;    
+    	background-color: #003c3c;
+    	padding-top: 10px;
+    	text-align: center;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	color: #fff;
+}
+
+.counter{
+	display: flex;
+	align-self: start;
+	margin-left: 8px;
 }
